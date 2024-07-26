@@ -1,5 +1,5 @@
 import { Args, ArgsType, Field, Mutation, Query, Resolver } from "type-graphql";
-import ReservationUseCases from "../../application/ReservationUseCases";
+import ReservationUseCases from "../../../application/ReservationUseCases";
 import TypeGraphQLReservationObjectType from "../object-types/TypeGraphQLReservationObjectType";
 
 @ArgsType()

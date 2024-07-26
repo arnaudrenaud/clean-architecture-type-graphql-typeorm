@@ -1,7 +1,6 @@
 import { ApolloServer } from "@apollo/server";
 import { buildSchema } from "type-graphql";
-import { TypeGraphQLReservationResolver } from "../presentation/resolvers/TypeGraphQLReservationResolver";
-// import { ReservationResolver } from "../presentation/resolvers/TypeGraphQLReservationResolver";
+import { TypeGraphQLReservationResolver } from "../presentation/type-graphql/resolvers/TypeGraphQLReservationResolver";
 
 export async function getApolloServer({
   reservationResolver,

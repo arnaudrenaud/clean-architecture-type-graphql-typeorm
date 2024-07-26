@@ -4,7 +4,7 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 import { getApolloServer } from "./adapters/apollo-server";
 import ReservationUseCases from "./application/ReservationUseCases";
 import TypeORMReservationRepository from "./infrastructure/repositories/typeorm/TypeORMReservationRepository";
-import { TypeGraphQLReservationResolver } from "./presentation/resolvers/TypeGraphQLReservationResolver";
+import { TypeGraphQLReservationResolver } from "./presentation/type-graphql/resolvers/TypeGraphQLReservationResolver";
 
 async function start() {
   const dataSource = await getDataSource();
