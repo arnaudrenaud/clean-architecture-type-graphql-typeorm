@@ -1,6 +1,12 @@
-# Development
+# Clean architecture with TypeScript
 
 Basic example of a database-dependant server app exposing a GraphQL HTTP API, following [clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+
+Uses:
+
+- type-graphql
+- Apollo Server
+- TypeORM
 
 <figure>
     <img src="./Clean-Architecture-Diagram-Asp-Net.png"
